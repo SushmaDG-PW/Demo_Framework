@@ -1,0 +1,48 @@
+[
+    {
+        "url":"https://demoqa.com/automation-practice-form",
+        "name":"john2",
+        "lastname":"sharma",
+        "email":"john@gmail.com",
+        "gender":"Male",
+        "mob":"7654231524",
+        "year":"2000",
+        "month":"5",
+        "subject":"A",
+        "hobbies":["Reading","Music"],
+        "picturepath":"C:/Users/Personal/Desktop/Sushma_Adhar.jpg",
+        "address":"KA 05",
+        "state":"NCR",
+        "city":"Delhi"
+    },{
+        "url":"https://demoqa.com/automation-practice-form",
+        "name":"john3",
+        "lastname":"sharma",
+        "email":"john@gmail.com",
+        "gender":"Male",
+        "mob":"7654231524",
+        "year":"2000",
+        "month":"5",
+        "subject":"A",
+        "hobbies":["Reading","Music"],
+        "picturepath":"C:/Users/Personal/Desktop/Sushma_Adhar.jpg",
+        "address":"KA 05",
+        "state":"NCR",
+        "city":"Delhi"
+    },{
+        "url":"https://demoqa.com/automation-practice-form",
+        "name":"john",
+        "lastname":"sharma",
+        "email":"john@gmail.com",
+        "gender":"Male",
+        "mob":"7654231524",
+        "year":"2000",
+        "month":"5",
+        "subject":"A",
+        "hobbies":["Reading","Music"],
+        "picturepath":"C:/Users/Personal/Desktop/Sushma_Adhar.jpg",
+        "address":"KA 05",
+        "state":"NCR",
+        "city":"Delhi"
+    }
+]
