@@ -34,7 +34,7 @@ test("dblclick",async({page})=>{
     await page.locator("#btn_a").dblclick()
 })
 
-test.only("hover, down, up", async({page})=>{
+test("hover, down, up", async({page})=>{
     await page.goto("https://demoapps.qspiders.com/ui/clickHold?sublist=0")
 
     await page.locator('#circle').hover()

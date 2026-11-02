@@ -13,7 +13,7 @@ import { test } from '@playwright/test';
 // })
 
 
-test.only('ICC cricket', async({page}) => {
+test('ICC cricket', async({page}) => {
     await page.goto("https://icc-cricket.com/rankings")
 
     let name = "Steve";
