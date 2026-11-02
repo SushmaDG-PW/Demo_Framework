@@ -20,4 +20,6 @@ test('dialog', async({page})=>{
     await page.getByRole("button",{name:"Confirmation Alert",exact:true}).click()
 
     await page.getByRole("button",{name:"Prompt Alert",exact:true}).click()
+    console.log("test git");
+    
 })
