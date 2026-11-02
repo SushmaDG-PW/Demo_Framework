@@ -93,7 +93,7 @@ test("scrolling", async({page})=>{
     await page.mouse.wheel(-600,0)
 })
 
-test.only("drag and drop",async({page})=>{
+test("drag and drop",async({page})=>{
 
     //? case 1 
     // await page.goto("https://demoapps.qspiders.com/ui/dragDrop?sublist=0")

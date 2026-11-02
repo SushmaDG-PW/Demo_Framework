@@ -98,7 +98,7 @@ expect(stud).toEqual(expect(Boolean))
 })
 
 
-test.only("poll assertion", async({page})=>{
+test("poll assertion", async({page})=>{
     await page.goto('https://demoapps.qspiders.com/ui?scenarios=1')
     await expect.poll(async()=>{
         return await page.title()

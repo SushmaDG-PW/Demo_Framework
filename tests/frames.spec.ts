@@ -17,7 +17,7 @@ test("frame intr", async({page})=>{
     //? do for frame5 and frame4
 })
 
-test.only("nested frame", async({page})=>{
+test("nested frame", async({page})=>{
     await page.goto("https://ui.vision/demo/webtest/frames/")
     let frame3=await page.frameLocator('//frame[@src="frame_3.html"]')
     await frame3.locator('[name="mytext3"]').fill("hello")

@@ -32,7 +32,7 @@ test('multiple data',async({page})=>{
     }
 })
 
-test.only('for application', async({page})=>{
+test('for application', async({page})=>{
     let book = new excel.Workbook()
     await book.xlsx.readFile(path.join(__dirname,"/DDT/excelfile.xlsx"))
     let sheet = await book.getWorksheet("Sheet3");

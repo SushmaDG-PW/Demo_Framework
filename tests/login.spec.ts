@@ -12,7 +12,7 @@ test("pom login", async({page})=>{
     await LoginPage.BtnSubmit.click()
 })
 
-test.only("pom+dtt login", async({page})=>{
+test("pom+dtt login", async({page})=>{
     //creartin object of pom class
     let LoginPage=new Login(page)
     for(let testdata of data){

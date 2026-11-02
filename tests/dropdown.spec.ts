@@ -48,7 +48,7 @@ test("custom dropdowns",async({page})=>{
 
 })
 
-test.only("autosuggest dropdown", async({page})=>{
+test("autosuggest dropdown", async({page})=>{
     await page.goto("https://www.amazon.in/")
     await page.getByPlaceholder("Search Amazon.in",{exact:true}).fill("shoes")
 

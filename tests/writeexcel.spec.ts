@@ -69,7 +69,7 @@ test("from application row",async({page})=>{
 })
 
 //for diagonal way
-test.only("from application diagonal",async({page})=>{
+test("from application diagonal",async({page})=>{
     let book = new excel.Workbook()
     await book.xlsx.readFile(path.join(__dirname,"/DDT/excelfile.xlsx"))
 

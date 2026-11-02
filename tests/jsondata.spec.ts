@@ -18,7 +18,7 @@ test("test data", async({page})=>{
     //await page.getByRole("button",{name:"Submit",exact:true}).click()
 })
 
-test.only("for application --> miltiple set", async({page})=>{
+test("for application --> miltiple set", async({page})=>{
     for(let testdata of userdata){
         let url = testdata.url
         let username = testdata.username

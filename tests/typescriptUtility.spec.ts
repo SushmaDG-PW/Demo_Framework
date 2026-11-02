@@ -1,6 +1,6 @@
 import {test} from "@playwright/test"
 
-import { getCurrentDate, getRandomNumber, getRandomString, getTimestamp, getDate } from "./utility/typescriptUtility"
+import { getCurrentDate, getRandomNumber, getRandomString, getTimestamp, getDate } from "../utils/typescriptUtility"
 
 test("typescriptutility", async()=>{
     let data= await getRandomNumber(5000000000,10000000000)

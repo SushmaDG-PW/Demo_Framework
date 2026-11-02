@@ -11,7 +11,7 @@ test("new tab",async({browser})=>{
     await page.goto("https://www.amazon.in/")
 })
 
-test.only("multiple tabs", async({browser})=>{
+test("multiple tabs", async({browser})=>{
     let context = await browser.newContext()
     let page = await context.newPage()
 

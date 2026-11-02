@@ -49,7 +49,7 @@ test("waitForEvent", async({page})=>{
 })
 
 
-test.only("custom waits", async({page})=>{
+test("custom waits", async({page})=>{
     await page.goto("https://www.amazon.in/")
 
     await page.waitForFunction(()=>{
